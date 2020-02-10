@@ -22,7 +22,7 @@
 
 
 #ifdef WIN32
-#define snprintf _snprintf 
+ 
 #endif
 
 #include "OVP_ECS2.h"

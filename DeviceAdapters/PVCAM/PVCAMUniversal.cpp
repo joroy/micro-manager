@@ -70,7 +70,7 @@ using namespace std;
 #endif
 
 #if WIN32
-#define snprintf _snprintf
+
 #endif
 
 // Number of references to this class

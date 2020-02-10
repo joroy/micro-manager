@@ -31,7 +31,7 @@
 #ifdef WIN32
    #define WIN32_LEAN_AND_MEAN
    #include <windows.h>
-   #define snprintf _snprintf 
+    
 #endif
 
 const char* g_DeviceNameArduino32Hub = "Arduino32-Hub";

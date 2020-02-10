@@ -28,7 +28,7 @@
 
 #include <Windows.h>
 
-#define snprintf _snprintf
+
 
 #define __PIPER_API_EXPORT __declspec(dllimport)
 

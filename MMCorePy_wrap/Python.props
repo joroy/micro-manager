@@ -2,15 +2,16 @@
 <Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup Label="UserMacros">
     <PythonInstallRoot>C:</PythonInstallRoot>
-    <PythonTwoDigitVersion>27</PythonTwoDigitVersion>
-    <PythonDir>$(PythonInstallRoot)\Python$(PythonTwoDigitVersion)-$(Platform)</PythonDir>
+    <PythonTwoDigitVersion>38</PythonTwoDigitVersion>
+    <PythonDir>C:\Python38</PythonDir>
+    <PythonVirtualDir>C:\Users\joroy\.venvs\mmcore38</PythonVirtualDir>
   </PropertyGroup>
   <PropertyGroup>
     <_ProjectFileVersion>10.0.40219.1</_ProjectFileVersion>
   </PropertyGroup>
   <ItemDefinitionGroup>
     <ClCompile>
-      <AdditionalIncludeDirectories>$(PythonDir)\include;$(PythonDir)\Lib\site-packages\numpy\core\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(PythonDir)\include;$(PythonVirtualDir)\Lib\site-packages\numpy\core\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <AdditionalLibraryDirectories>$(PythonDir)\libs;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
@@ -25,6 +26,9 @@
     </BuildMacro>
     <BuildMacro Include="PythonDir">
       <Value>$(PythonDir)</Value>
+    </BuildMacro>
+    <BuildMacro Include="PythonVirtualDir">
+      <Value>$(PythonVirtualDir)</Value>
     </BuildMacro>
   </ItemGroup>
 </Project>

@@ -36,7 +36,7 @@ const char* g_MT20Filterwheel = "MT20-Filterwheel";
 const char* g_MT20Attenuator = "MT20-Attenuator";
 
 #ifdef WIN32
-	#define snprintf _snprintf
+	
 #endif
 
 // instantiate MT20hub object, which will handle communication with device

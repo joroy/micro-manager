@@ -33,7 +33,7 @@
 
 #ifdef WIN32
 //   #include <windows.h>
-#define snprintf _snprintf 
+ 
 #pragma warning(disable: 4355)
 #endif
 

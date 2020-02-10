@@ -33,7 +33,7 @@
 
 #ifdef WIN32
 #include <windows.h>
-#define snprintf _snprintf
+
 #endif
 
 #include "ChuoSeiki_QT_XYZ.h"

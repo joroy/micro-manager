@@ -25,7 +25,7 @@
 
 #define WIN32_LEAN_AND_MEAN
 #include <windows.h>
-#define snprintf _snprintf 
+ 
 
 extern "C" {
 	long __stdcall FLILibAttach(void);

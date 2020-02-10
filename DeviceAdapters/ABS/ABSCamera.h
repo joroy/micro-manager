@@ -4,7 +4,7 @@
 #ifdef WIN32
    #define WIN32_LEAN_AND_MEAN
    #include <windows.h>   
-   #define snprintf _snprintf 
+    
    #pragma warning(disable : 4996) // disable warning for deperecated CRT functions on Windows 
 #endif
 

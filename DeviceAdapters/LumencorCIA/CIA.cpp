@@ -22,7 +22,7 @@
 
 #ifdef WIN32
    #include <windows.h>
-   #define snprintf _snprintf 
+    
    #include <iostream>
 #endif
 
