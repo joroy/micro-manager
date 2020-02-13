@@ -2,9 +2,9 @@
 <Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup Label="UserMacros">
     <PythonInstallRoot>C:</PythonInstallRoot>
-    <PythonTwoDigitVersion>38</PythonTwoDigitVersion>
-    <PythonDir>C:\Python38</PythonDir>
-    <PythonVirtualDir>C:\Users\joroy\.venvs\mmcore38</PythonVirtualDir>
+    <PythonTwoDigitVersion>37</PythonTwoDigitVersion>
+    <PythonDir>C:\Program Files (x86)\Microsoft Visual Studio\Shared\Python37_64</PythonDir>
+    <PythonVirtualDir>C:\Users\joroy\.venvs\mmcore</PythonVirtualDir>
   </PropertyGroup>
   <PropertyGroup>
     <_ProjectFileVersion>10.0.40219.1</_ProjectFileVersion>

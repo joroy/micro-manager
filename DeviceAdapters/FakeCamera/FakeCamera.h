@@ -25,9 +25,9 @@
 
 #include <string>
 
-#include "DeviceBase.h"
+#include "../../MMDevice/DeviceBase.h"
 
-#include "opencv/highgui.h"
+#include <opencv/highgui.h>
 
 #define ERR_INVALID_DEVICE_NAME 10000
 #define OUT_OF_RANGE 10001
